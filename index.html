@@ -1,39 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            My Portfolio
-        </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1 align="center"><img src="pic\logo.png" style="height: 22px; width: 25px;"> My Portfolio</h1>
-        <br>
-        <h1 align="center">DASARI SRIRAM REDDY    <img src="pic\myself.jpg" style="width: 50px;position:left;height: 50px;"></h1>
-        <hr>
-        <table align="center" border="1">
-            <tr>
-                <th><a href="index.html" align="center" >Home</a></th>
-                <th><a href="Tech.html" align="center" >Tech</a></th>
-                <th><a href="Contact.html" align="center" >Contact</a></th>
-            </tr>
-        </table>
-        <hr>
-        <main>
-            <h2>PROFILE</h2>
-            <pre align="center">Second-year student at Vasavi College of Engineering with a strong commitment to learning and a
-proactive approach to new technologies. Skilled in quick to adapt, and eager to contribute to impactful
-projects through internships. Collaborative team player known for dedication and a drive to excel.</pre>
-        </main>
-        <br>
-        <hr>
-        <h2>EDUCATION</h2>
-        <pre align="center">BE-Computer Science and Engineering
-            Vasavi College Of Engineering • GPA: 9.33(till 4th semester) Hyderabad, India • 01/2023 - 01/2027
-State Boards
-             Narayana Junior College • GPA: 98.4% Saroornagar,Hyderabad • 01/2021 - 01/2023
-             SPR School Of Excellence • GPA: 10/10 Yellapur,Warangal• 05/2021
-        </pre>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasari Sriram Reddy | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    </body>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>
+            <img src="pic/logo.png" alt="Logo" class="logo">
+            My Portfolio
+        </h1>
+
+        <div class="profile-header">
+            <img src="pic/myself.jpg" alt="Profile Photo" class="profile-pic">
+            <h2>Dasari Sriram Reddy</h2>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="Tech.html">Tech</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Profile Section -->
+        <section>
+            <h2>Profile</h2>
+            <p>
+                Second-year student at <strong>Vasavi College of Engineering</strong> with a strong
+                commitment to learning and a proactive approach to new technologies.
+                Quick to adapt, eager to contribute to impactful projects through internships.
+                A collaborative team player with dedication and a drive to excel.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <h3>BE – Computer Science and Engineering</h3>
+                <p>Vasavi College of Engineering, Hyderabad</p>
+                <p><strong>GPA:</strong> 9.33 (till 4th semester)</p>
+                <p><em>2023 – 2027</em></p>
+            </div>
+
+            <div class="education-item">
+                <h3>Intermediate (State Board)</h3>
+                <p>Narayana Junior College, Saroornagar</p>
+                <p><strong>Score:</strong> 98.4%</p>
+                <p><em>2021 – 2023</em></p>
+            </div>
+
+            <div class="education-item">
+                <h3>SSC</h3>
+                <p>SPR School of Excellence, Yellapur</p>
+                <p><strong>GPA:</strong> 10/10</p>
+                <p><em>2021</em></p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Dasari Sriram Reddy | Portfolio</p>
+    </footer>
+
+</body>
 </html>

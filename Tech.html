@@ -1,72 +1,96 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            My Portfolio
-        </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-       <h1 align="center"><img src="pic\logo.png" style="height: 22px; width: 25px;"> My Portfolio</h1>
-        <br>
-        <hr>
-       <table align="center" border="1">
-           <tr>
-                <th><a href="index.html" align="center" >Home</a></th>
-                <th><a href="Tech.html" align="center" >Tech</a></th>
-                <th><a href="Contact.html" align="center" >Contact</a></th>
-            </tr>
-        </table>
-        <hr>
-        <main>
-            <h2>
-                CERTIFICATIONS
-            </h2>
-            <h3 align="center">
-                Problem solving through programming using C
-                <pre>NPTEL</pre>
-            </h3>
-            <h3 align="center">
-                Python Foundation Certificate
-                <pre>Infosys Springboard</pre>
-            </h3>
-            <h3 align="center">
-                Programming Essentials in Python
-                <pre>Cisco Networking Academy</pre>
-            </h3>
-     
-            <h3 align="center">
-                JAVA Foundation Certificate
-                <pre>Infosys Springboard</pre>
-            </h3>
-       
-            <h3 align="center">
-                Data Base Management System
-                <pre>NPTEL</pre>
-            </h3>
-            <hr>
-        <h2>PROJECTS</h2>
-        <h3 align="center">Vehicle Rental System</h3>
-        <pre align="center"> It is built using HTML,CSS,JS,NODE JS,MONGODB. For this project, I have learned these and gained hands‑on
-experience with them.</pre>
-        <br>
-        <h3 align="center">Stock Store Management
-        </h3>
-        <pre align="center">  It is built using Python libraries such as Tkinter, NumPy, Matplotlib, and Pandas. For this project, I have
-learned these Python libraries and gained hands‑on experience with them.</pre>
-        <hr>
-        <h2>SKILLS</h2>
-        <ul align="center">
-            <li >C-PROGRAMMING</li>
-            <li >JAVA</li>
-            <li >PYTHON</li>
-            <li >DSA</li>
-            <li >DBMS-SQL</li>
-        </ul>
-        <br>
-        <br>
-        </main>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    </body>
-    </html>
+<body>
+
+<header class="header">
+    <h1>
+        <img src="pic/logo.png" class="logo">
+        My Portfolio
+    </h1>
+</header>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="Tech.html">Tech</a>
+    <a href="Contact.html">Contact</a>
+</nav>
+
+<main class="container">
+
+    <!-- CERTIFICATIONS -->
+    <section class="accordion">
+        <h2>Certifications</h2>
+
+        <details>
+            <summary>Problem Solving Through Programming Using C</summary>
+            <p>NPTEL</p>
+        </details>
+
+        <details>
+            <summary>Python Foundation Certificate</summary>
+            <p>Infosys Springboard</p>
+        </details>
+
+        <details>
+            <summary>Programming Essentials in Python</summary>
+            <p>Cisco Networking Academy</p>
+        </details>
+
+        <details>
+            <summary>Java Foundation Certificate</summary>
+            <p>Infosys Springboard</p>
+        </details>
+
+        <details>
+            <summary>Database Management System</summary>
+            <p>NPTEL</p>
+        </details>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="accordion">
+        <h2>Projects</h2>
+
+        <details>
+            <summary>Vehicle Rental System</summary>
+            <p>
+                Built using HTML, CSS, JavaScript, Node.js, and MongoDB.
+                Gained hands-on experience in full-stack web development.
+            </p>
+        </details>
+
+        <details>
+            <summary>Stock Store Management System</summary>
+            <p>
+                Built using Python libraries such as Tkinter, NumPy,
+                Matplotlib, and Pandas. Strengthened GUI and data handling skills.
+            </p>
+        </details>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>C Programming</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Data Structures & Algorithms</li>
+            <li>DBMS (SQL)</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>© 2026 Dasari Sriram Reddy</p>
+</footer>
+
+</body>
 </html>

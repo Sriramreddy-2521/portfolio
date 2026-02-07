@@ -1,30 +1,188 @@
-div{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
 }
-body{
-    background: linear-gradient(to top, #8cf5f5, #99daa6);
-    color: rgb(0, 0, 0);
+
+.header {
+    background-color: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
-table{
-    border-collapse: collapse;
-    border:3px solid black;
-    margin:auto;
-    width: 50%; 
+
+.logo {
+    height: 24px;
+    vertical-align: middle;
 }
-pre{
-    font-weight: 100px;
-    font-size: larger;
-    font-style: italic;
-    font: 1em sans-serif;
+
+.profile-header {
+    margin-top: 15px;
 }
-.contact{
-    border: 3px solid black;
-    border-radius: 10px ;
-    margin:auto;
-    height: 400px;
-    width:200px;
-    
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid white;
 }
-.fab-fa-linkedin{
-    color: #f1f4f5;
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #1e272e;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #00d2d3;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+    border-bottom: 2px solid #0a3d62;
+    padding-bottom: 5px;
+}
+
+.education-item {
+    margin-bottom: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0a3d62;
+    color: white;
+}
+
+/* Accordion Styling */
+.accordion details {
+    background: #ffffff;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+
+.accordion summary {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a3d62;
+    list-style: none;
+}
+
+.accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion summary::after {
+    content: "+";
+    float: right;
+    font-size: 20px;
+}
+
+.accordion details[open] summary::after {
+    content: "-";
+}
+
+.accordion p {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Skills */
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.skills-list li {
+    background: #0a3d62;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+/* Contact Page */
+.contact-card {
+    background: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.contact-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-card input,
+.contact-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.contact-card button {
+    width: 100%;
+    padding: 10px;
+    background: #0a3d62;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-card button:hover {
+    background: #1e6fa8;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 25px;
+    color: #444;
+}
+
+.contact-info i {
+    margin-right: 8px;
+    color: #0a3d62;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #0a3d62;
+    font-weight: bold;
 }
