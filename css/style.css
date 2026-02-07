@@ -1,0 +1,30 @@
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(to top, #8cf5f5, #99daa6);
+    color: rgb(0, 0, 0);
+}
+table{
+    border-collapse: collapse;
+    border:3px solid black;
+    margin:auto;
+    width: 50%; 
+}
+pre{
+    font-weight: 100px;
+    font-size: larger;
+    font-style: italic;
+    font: 1em sans-serif;
+}
+.contact{
+    border: 3px solid black;
+    border-radius: 10px ;
+    margin:auto;
+    height: 400px;
+    width:200px;
+    
+}
+.fab-fa-linkedin{
+    color: #f1f4f5;
+}
